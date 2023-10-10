@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfoilo</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+    
+</head>
+<body>
+
+    <nav class="desktop-nav">
+        <div class="logo">Portfoilo</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">หน้าแรก</a></li>
+                <li><a href="#skill">ทักษะ</a></li>
+                <li><a href="#hobby">งานอดิเรก</a></li>
+                <li><a href="#Interest">ความสนใจ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Portfoilo</div>
+        <div class = "hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="PortjectForce/index.html" onclick="toggleMenu()">หน้าแรก</a></li>
+            <li><a href="#skill" onclick="toggleMenu()">ทักษะ</a></li>
+            <li><a href="#hobby" onclick="toggleMenu()">งานอดิเรก</a></li>
+            <li><a href="#Interest" onclick="toggleMenu()">ความสนใจ</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="IMG1.png" alt="Force PIC" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Week7</p>
+          <p class="section__text__p2">ออกแบบเกมทางการแพทย์เพื่อช่วยเหลือคนที่พิการทางด้านสมองเพื่อช่วยเหลือผู้ป่วย</p>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2"onclick="window.open('game.html')">
+              My Work
+            </button>
+          </div>
+          <div id="socials-container">
+            <a href="https://www.facebook.com/forcesumetee/"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/forc_eee?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/forcesumete"><i class="fa fa-github"></i></a>
+          </div> 
+        </div>
+    </section>
+
+  
+</body>
+</html>
